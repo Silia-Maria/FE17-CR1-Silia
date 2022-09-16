@@ -66,6 +66,7 @@ header {
     display: -ms-grid;
     display: grid;
     width: 100%;
+    height: 100%;
     gap: 2%;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -133,6 +134,46 @@ header {
     background-image: url(./images/poke-bowl.jpg);
     background-size: cover;
     background-position: 0% 50%;
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 8%;
+}
+
+footer .footer-nav {
+    background-color: black;
+    text-align: center;
+    padding-top: 1%;
+}
+
+footer .footer-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 3% 7% 0% 7%;
+    font-size: 67%;
+}
+
+footer .footer-nav span {
+    color: white;
+}
+
+.copyright {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5% 0% 1% 0%;
+}
+
+.copyright i {
+    padding: 0% 0.5% 1% 0.5%;
+    font-size: 67%;
+}
+
+.copyright p {
+    font-size: 67%;
 }
 
 
