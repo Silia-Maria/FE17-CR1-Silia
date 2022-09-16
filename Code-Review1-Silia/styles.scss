@@ -185,6 +185,9 @@ Recipe of the Month
 -----------------------------
 */
 
+
+/* Header */
+
 .heading {
     font-family: $font-style-heading;
     text-align: center;
@@ -197,6 +200,9 @@ Recipe of the Month
         margin-top: 2%;
     }
 }
+
+
+/* Hero */
 
 .recipe-img {
     // border: 1px solid blue;
@@ -214,4 +220,80 @@ Recipe of the Month
         line-height: 150%;
         font-size: 150%;
     }
+}
+
+
+/* Jamie Quote */
+
+.jamie {
+    // border: 1px solid blue;
+    margin-top: 5%;
+    padding: 0% 10%;
+    text-align: center;
+    line-height: 200%;
+    q {
+        font-size: 130%;
+    }
+}
+
+
+/* Ingredients & Directions */
+
+.flex-ingredients {
+    border: 1px solid black;
+    border-radius: 3%;
+    margin-top: 5%;
+    padding: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingredients-header {
+    // border: 1px solid blue;
+    line-height: 150%;
+    padding-bottom: 2%;
+    border-bottom: 0.5px solid black;
+    p {
+        display: inline;
+        margin-right: 2%;
+    }
+    i {
+        margin-right: 3%;
+    }
+}
+
+.ingredients {
+    // border: 1px solid blue;
+    width: 40%;
+    ul {
+        // border: 1px solid blue;
+        margin: 7% 0% 0% 5%;
+        li {
+            padding: 2% 0%;
+        }
+    }
+}
+
+.method {
+    // border: 1px solid blue;
+    width: 50%;
+    ol {
+        // border: 1px solid blue;
+        margin: 5% 0% 0% 5%;
+        line-height: 150%;
+        text-align: justify;
+        li {
+            padding: 2% 0%;
+        }
+    }
+    h3 {
+        padding-bottom: 7.4%;
+        border-bottom: 0.5px solid black;
+    }
+}
+
+h3 {
+    padding-bottom: 2%;
+    font-weight: 100;
+    font-size: 150%;
 }

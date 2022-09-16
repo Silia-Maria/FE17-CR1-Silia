@@ -183,6 +183,9 @@ Recipe of the Month
 -----------------------------
 */
 
+
+/* Header */
+
 .heading {
     font-family: "Great Vibes", cursive;
     text-align: center;
@@ -197,6 +200,9 @@ Recipe of the Month
     font-size: 200%;
     margin-top: 2%;
 }
+
+
+/* Hero */
 
 .recipe-img {
     max-width: 100%;
@@ -213,6 +219,88 @@ Recipe of the Month
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
     line-height: 150%;
+    font-size: 150%;
+}
+
+
+/* Jamie Quote */
+
+.jamie {
+    margin-top: 5%;
+    padding: 0% 10%;
+    text-align: center;
+    line-height: 200%;
+}
+
+.jamie q {
+    font-size: 130%;
+}
+
+
+/* Ingredients & Directions */
+
+.flex-ingredients {
+    border: 1px solid black;
+    border-radius: 3%;
+    margin-top: 5%;
+    padding: 4%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.ingredients-header {
+    line-height: 150%;
+    padding-bottom: 2%;
+    border-bottom: 0.5px solid black;
+}
+
+.ingredients-header p {
+    display: inline;
+    margin-right: 2%;
+}
+
+.ingredients-header i {
+    margin-right: 3%;
+}
+
+.ingredients {
+    width: 40%;
+}
+
+.ingredients ul {
+    margin: 7% 0% 0% 5%;
+}
+
+.ingredients ul li {
+    padding: 2% 0%;
+}
+
+.method {
+    width: 50%;
+}
+
+.method ol {
+    margin: 5% 0% 0% 5%;
+    line-height: 150%;
+    text-align: justify;
+}
+
+.method ol li {
+    padding: 2% 0%;
+}
+
+.method h3 {
+    padding-bottom: 7.4%;
+    border-bottom: 0.5px solid black;
+}
+
+h3 {
+    padding-bottom: 2%;
+    font-weight: 100;
     font-size: 150%;
 }
 
