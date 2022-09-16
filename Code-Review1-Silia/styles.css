@@ -177,4 +177,18 @@ footer .footer-nav span {
 }
 
 
+/*
+-----------------------------
+Recipe of the Month 
+-----------------------------
+*/
+
+.heading {
+    font-family: "Great Vibes", cursive;
+    text-align: center;
+    margin-top: 3%;
+    font-size: 250%;
+}
+
+
 /*# sourceMappingURL=styles.css.map */
