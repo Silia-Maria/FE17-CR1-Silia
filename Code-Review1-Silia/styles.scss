@@ -56,3 +56,83 @@ header {
         font-size: 90%;
     }
 }
+
+
+/* Main Content */
+
+.content-container {
+    // border: 1px solid red;
+    margin: 3% 6%;
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    gap: 2%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    .grid-item {
+        // border: 1px solid green;
+        padding-top: 70%;
+        .label {
+            // border: 1px solid red;
+            padding: 5% 0;
+            text-align: center;
+            background-color: $bg-color-labels;
+            color: $font-color-footer-content;
+            line-height: 150%;
+        }
+    }
+}
+
+.recipe1 {
+    background-image: url(./images/egg-salad.jpg);
+    background-size: cover;
+    background-position: 50% 0%;
+}
+
+.recipe2 {
+    background-image: url(./images/burger.jpg);
+    background-size: cover;
+    background-position: 0% 50%;
+}
+
+.recipe3 {
+    background-image: url(./images/pizza.jpg);
+    background-size: cover;
+}
+
+.recipe4 {
+    background-image: url(./images/pancakes.jpg);
+    background-size: cover;
+    background-position: 40% 0%;
+}
+
+.recipe5 {
+    background-image: url(./images/pasta.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+}
+
+.recipe6 {
+    background-image: url(./images/acai-bowl.jpg);
+    background-size: cover;
+    background-position: 0 50%;
+}
+
+.recipe7 {
+    background-image: url(./images/taco.jpg);
+    background-size: cover;
+    background-position: 0% 70%;
+}
+
+.recipe8 {
+    background-image: url(./images/red-velvet.jpg);
+    background-size: cover;
+}
+
+.recipe9 {
+    background-image: url(./images/poke-bowl.jpg);
+    background-size: cover;
+    background-position: 0% 50%;
+}
