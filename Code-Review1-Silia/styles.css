@@ -184,7 +184,7 @@ Recipe of the Month
 */
 
 
-/* Header */
+/* Heading */
 
 .heading {
     font-family: "Great Vibes", cursive;
@@ -302,6 +302,37 @@ h3 {
     padding-bottom: 2%;
     font-weight: 100;
     font-size: 150%;
+}
+
+
+/*
+--------------------------
+Media Queries
+--------------------------
+*/
+
+@media screen and (min-width: 1201px) {
+    .grid {
+        display: -ms-grid;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}
+
+
+/* doesn't work :( */
+
+@media screen and (max-width: 480px) {
+    .grid {
+        display: block;
+    }
+    .grid .grid-item {
+        margin-bottom: 5%;
+    }
+    .top-nav {
+        font-size: 70%;
+    }
 }
 
 
