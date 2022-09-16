@@ -2,7 +2,39 @@
 
 $font-style-heading:'Great Vibes',
 cursive;
+$font-color-footer-content: white;
+$font-color-header-nav: black;
+$bg-color-footer: black;
+$bg-color-labels: hsla(145, 80%, 0%, 0.6);
+
+/* remove all padding & margin */
+
 * {
     margin: 0;
     padding: 0;
+}
+
+
+/* Header */
+
+.flex-container {
+    // border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    h1 {
+        // border: 1px solid blue;
+        font-family: $font-style-heading;
+        font-size: 38px;
+    }
+    h4 {
+        // border: 1px solid red;
+        word-spacing: 20px;
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: 100;
+        i {
+            font-size: 20px;
+        }
+    }
 }
