@@ -188,6 +188,30 @@ Recipe of the Month
 .heading {
     font-family: $font-style-heading;
     text-align: center;
+    margin-top: 2%;
+    h1 {
+        font-size: 250%;
+    }
+    h2 {
+        font-size: 200%;
+        margin-top: 2%;
+    }
+}
+
+.recipe-img {
+    // border: 1px solid blue;
+    max-width: 100%;
     margin-top: 3%;
-    font-size: 250%;
+    padding: 30% 0%;
+    background-image: url(./images/shakshuka2.jpg);
+    background-size: cover;
+    background-position: 0% 20%;
+    .label {
+        padding: 5% 0;
+        text-align: center;
+        background-color: $bg-color-labels;
+        color: $font-color-footer-content;
+        line-height: 150%;
+        font-size: 150%;
+    }
 }
