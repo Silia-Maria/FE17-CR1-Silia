@@ -6,6 +6,7 @@ $font-color-footer-content: white;
 $font-color-header-nav: black;
 $bg-color-footer: black;
 $bg-color-labels: hsla(145, 80%, 0%, 0.6);
+$border-top-nav: 1px solid hsla(145, 80%, 0%, 0.6);
 
 /* remove all padding & margin */
 
@@ -17,24 +18,41 @@ $bg-color-labels: hsla(145, 80%, 0%, 0.6);
 
 /* Header */
 
+header {
+    padding: 20px;
+}
+
 .flex-container {
     // border: 1px solid green;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
     h1 {
         // border: 1px solid blue;
         font-family: $font-style-heading;
-        font-size: 38px;
+        font-size: 250%;
     }
     h4 {
         // border: 1px solid red;
         word-spacing: 20px;
         padding-top: 10px;
-        font-size: 20px;
+        font-size: 120%;
         font-weight: 100;
         i {
-            font-size: 20px;
+            font-size: 110%;
         }
+    }
+}
+
+
+/* Top - Nav */
+
+.top-nav {
+    border-bottom: $border-top-nav;
+    border-top: $border-top-nav;
+    padding: 10px;
+    a {
+        color: $font-color-header-nav;
+        text-decoration: none;
+        font-size: 90%;
     }
 }
