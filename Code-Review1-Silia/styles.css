@@ -211,6 +211,7 @@ Recipe of the Month
     background-image: url(./images/shakshuka2.jpg);
     background-size: cover;
     background-position: 0% 20%;
+    background-attachment: fixed;
 }
 
 .recipe-img .label {
@@ -302,6 +303,69 @@ h3 {
     padding-bottom: 2%;
     font-weight: 100;
     font-size: 150%;
+}
+
+
+/*
+--------------------------
+About
+---------------------------
+*/
+
+.flex-about {
+    max-width: 100%;
+    padding: 3%;
+    margin: 3% 2% 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.flex-about .text {
+    width: 30%;
+}
+
+.flex-about .text h1 {
+    margin: 5% 0%;
+    font-weight: 100;
+}
+
+.flex-about .text p {
+    line-height: 150%;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+.flex-about .about-image {
+    width: 60%;
+    background-image: url(./images/about-me.jpg);
+    background-size: cover;
+    border-radius: 2%;
+}
+
+.image-fixed {
+    padding-top: 70%;
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url(./images/max-delsid-0geTqSZ76Xg-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cooking-class {
+    border: 1px solid blue;
+    padding: 3%;
+    margin: 3% 2% 0;
+    text-align: center;
+}
+
+.cooking-class h1,
+.cooking-class h2 {
+    font-weight: 100;
+    line-height: 150%;
 }
 
 
