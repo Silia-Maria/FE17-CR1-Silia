@@ -12,7 +12,7 @@
 /* Header */
 
 header {
-    padding: 20px;
+    padding: 2%;
 }
 
 .flex-container {
@@ -31,13 +31,21 @@ header {
 
 .flex-container h4 {
     word-spacing: 20px;
-    padding-top: 10px;
+    padding-top: 15px;
     font-size: 120%;
     font-weight: 100;
 }
 
 .flex-container h4 i {
     font-size: 110%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.flex-container h4 i:hover {
+    font-size: 130%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
 }
 
 
@@ -46,13 +54,21 @@ header {
 .top-nav {
     border-bottom: 1px solid rgba(0, 0, 0, 0.6);
     border-top: 1px solid rgba(0, 0, 0, 0.6);
-    padding: 10px;
+    padding: 1% 2%;
 }
 
 .top-nav a {
     color: black;
     text-decoration: none;
     font-size: 90%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.top-nav a:hover {
+    letter-spacing: 5px;
+    -webkit-transition: 1s;
+    transition: 1s;
 }
 
 
@@ -237,12 +253,16 @@ Recipe of the Month
     font-size: 130%;
 }
 
+.jamie span {
+    color: grey;
+}
+
 
 /* Ingredients & Directions */
 
 .flex-ingredients {
     border: 1px solid black;
-    border-radius: 3%;
+    border-radius: 20px;
     margin-top: 5%;
     padding: 4%;
     display: -webkit-box;
@@ -356,7 +376,8 @@ About
 }
 
 .cooking-class {
-    border: 1px solid blue;
+    border: 1px solid rgba(123, 204, 154, 0.76);
+    border-radius: 10px;
     padding: 3%;
     margin: 3% 2% 0;
     text-align: center;
@@ -366,6 +387,24 @@ About
 .cooking-class h2 {
     font-weight: 100;
     line-height: 150%;
+}
+
+.cooking-class p {
+    margin-top: 3%;
+}
+
+.button {
+    width: 20%;
+    padding: 1.5% 1%;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background: rgba(185, 228, 202, 0.76);
+    border: 1px solid black;
+}
+
+.button:hover {
+    background-color: rgba(123, 204, 154, 0.76);
 }
 
 
